@@ -2,7 +2,13 @@
   "manifest_version": 3,
   "name": "Actorle Movie Title Helper",
   "version": "1.0",
-  "description": "Type in a string, then automatically replace each alphanumeric character with an X.",
+  "description": "When using actorle, type in a string -- the extension will automatically replace each alphanumeric character with an X.",
+  "icons": {
+      "16": "images/clapperboard_16_16.png",
+      "32": "images/clapperboard_32_32.png",
+      "48": "images/clapperboard_48_48.png",
+      "128": "images/clapperboard_128_128.png"
+  }
   "content_scripts": [
     {
       "js": [
