@@ -1,0 +1,18 @@
+#actorle-helper {
+    position: fixed;
+    top: 400px;
+    left: 280px;
+    width: 350px;
+    min-height: 150px;
+    background-color: lightgrey;
+    outline: solid;
+    font-size: 18px;
+    cursor: move;
+}
+
+#title-output {
+    min-height: 80px;
+    width: 350px;
+    overflow: hidden;
+}
+

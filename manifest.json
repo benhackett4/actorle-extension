@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Actorle Movie Title Helper",
+  "version": "1.0",
+  "description": "Type in a string, then automatically replace each alphanumeric character with an X.",
+  "content_scripts": [
+    {
+      "js": [
+          "scripts/jquery-3.7.0.min.js",
+          "scripts/jquery-ui-1.13.2.js",
+          "scripts/actorle_helper.js"
+      ],
+      "css": [
+          "css/jquery-ui-1.13.2.css",
+          "css/actorle_helper.css"
+      ],
+      "matches": [
+        "https://actorle.com/*"
+      ]
+    }
+  ]
+}
