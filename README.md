@@ -13,7 +13,7 @@ It's pretty simple so far. It just lets you type in any string, and replaces let
 ## Installation
 
 ### Chrome Store
-<Insert link here later>
+ - `<Insert link here later>`
 
 ### Developer Mode
  - clone this repository and put it wherever you want to keep it.
