@@ -1,7 +1,7 @@
 "use strict";
 
-function replaceAlphaNumCharsWithX(title) {
-    return title.replaceAll(/[a-zA-Z0-9]/g, "X");
+function replaceAlphaNumChars(title, symbol) {
+    return title.replaceAll(/[a-zA-Z0-9]/g, symbol);
 }
 
 const body = document.querySelector('body');
@@ -18,7 +18,7 @@ let title_output = document.createElement("div");
 title_output.id = "title-output";
 
 title_input.addEventListener("input", e => {
-    title_output.textContent = replaceAlphaNumCharsWithX(e.target.value);
+    title_output.textContent = replaceAlphaNumChars(e.target.value, "□");
 });
 
 let clipboard_button = document.createElement("button");
@@ -26,7 +26,7 @@ clipboard_button.innerText = '📋';
 clipboard_button.addEventListener("click", e => {
     let success_msg = "Copied";
     let fail_msg = "Failed to copy to clipboard";
-    navigator.clipboard.writeText(replaceAlphaNumCharsWithX(title_input.value)).then(
+    navigator.clipboard.writeText(replaceAlphaNumChars(title_input.value, "□")).then(
         () => {
             title_output.textContent = success_msg;
         },
