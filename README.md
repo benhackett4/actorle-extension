@@ -1,9 +1,9 @@
 # Actorle Movie Title Helper
-This simple extension makes it easy to convert a movie title to a series of □'s (thus making it easier to search the webpage for a given movie title).
+This simple extension makes it easy to convert a movie title to a series of □'s/X's (thus making it easier to search the webpage for a given movie title).
 
 ## What is Actorle?
  - https://actorle.com/ is a little game inspired by wordle.
- - You're given a list of movies, with each title "redacted", so that each letter is replaced by an □.
+ - You're given a list of movies, with each title "redacted", so that each letter is replaced by an □ or an X.
  - You try to guess which actor is in every movie.
  - Actorle has nothing to do with me; I just wrote this little extension.
 
