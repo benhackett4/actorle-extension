@@ -5,6 +5,9 @@ function replaceAlphaNumCharsWithSymbol(title, symbol) {
 }
 
 function redactTitle(title) {
+    if (redactionSymbol == "") {
+        redactionSymbol = determineRedactionCharacter(body);
+    }
     return replaceAlphaNumCharsWithSymbol(title, redactionSymbol);
 }
 
