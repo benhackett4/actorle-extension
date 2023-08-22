@@ -12,7 +12,7 @@ function redactTitle(title) {
 }
 
 function determineRedactionCharacter(body) {
-    let possible_symbols = ["□", "X", "x"];
+    let possible_symbols = ["□", "X", "x", "×"];
     let body_text = body.innerText;
     for (let i=0; i < possible_symbols.length; i++) {
         let symbol = possible_symbols[i];
