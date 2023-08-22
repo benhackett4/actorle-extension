@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Actorle Movie Title Helper",
-  "version": "1.2",
+  "version": "1.3",
   "description": "When using actorle, type in a string -- the extension will automatically replace each alphanumeric character with a symbol.",
   "icons": {
       "16": "images/clapperboard_16_16.png",
@@ -21,7 +21,9 @@
           "css/actorle_helper.css"
       ],
       "matches": [
-        "https://actorle.com/*"
+        "https://actorle.com/*",
+        "https://actorle.tv/*",
+        "https://moviedle.xyz/*"
       ]
     }
   ]
